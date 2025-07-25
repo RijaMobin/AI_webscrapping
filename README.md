@@ -1,6 +1,6 @@
 About:
 This project is a Python-based web scraper that automatically collects article data from the sports website RDS.ca.
-Description:
+
 It works by opening the RDS homepage using Selenium, scrolling down the page to load more content, and then collecting all article links that contain keywords like article, hockey, boxe, or canadiens. After collecting the links, it uses the Requests library to quickly open each article and BeautifulSoup to extract important information such as the title, publication date, a short description (usually the first paragraph), and the full article URL.
 All of this data is then saved into a structured CSV file named rds_all_articles.csv.
 
